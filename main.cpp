@@ -11,7 +11,7 @@ int main() {
         lidarStartScan();
 		while(1){
 			for (int i = 0 ; i < 360 ; i++{
-				printf("distance a %d est de %f mm \n\r",i,distance_scan[i]);
+				printf("distance a %d est de %d mm \n\r",i,distance_scan[i]);
 			}				
 		}
 }
