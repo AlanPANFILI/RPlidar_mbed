@@ -10,7 +10,7 @@ int main() {
 	    initLidar(lidar, rotation, 20);
         lidarStartScan();
 		while(1){
-			for (int i = 0 ; i < 360 ; i++{
+			for (int i = 0 ; i < 360 ; i++){
 				printf("distance a %d est de %d mm \n\r",i,distance_scan[i]);
 			}				
 		}
